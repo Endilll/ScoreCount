@@ -4,11 +4,15 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ScoreCount_client"
+        xmlns:localViewModels="clr-namespace:ScoreCount_client.ViewModels"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
+    <Window.DataContext>
+        <localViewModels:MainViewModel/>
+    </Window.DataContext>
     <Grid>
-        <Menu x:Name="menu1" Height="100" Width="267" Margin="0,0,250,219">
-            <MenuItem Header="File" Width="36">
+        <Menu x:Name="menu1" Margin="0,0,405,289">
+            <MenuItem Header="File" Width="29">
                 <MenuItem Header="Load Fight Config" HorizontalAlignment="Left" Width="140"/>
                 <Separator HorizontalAlignment="Left" Height="1" Width="140"/>
                 <MenuItem Header="Exit" HorizontalAlignment="Left" Width="140"/>
