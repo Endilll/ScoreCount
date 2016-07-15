@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Input;
 
-namespace oop_project_mvvm {
+namespace ScoreCount_client.Utilities {
 	class RelayCommand : ICommand {
 		public RelayCommand(Action<object> action) {
 			ExecuteDelegate = action;

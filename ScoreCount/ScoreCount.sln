@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScoreCount-client", "ScoreC
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AF567626-36BF-4319-ADBF-27559A8E087B}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\ScoreCount-old\ScoreCounter.vsdx = ..\..\..\ScoreCount-old\ScoreCounter.vsdx
+		ScoreCounter.vsdx = ScoreCounter.vsdx
 	EndProjectSection
 EndProject
 Global
