@@ -7,14 +7,16 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <Menu x:Name="menu" HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="30">
-            <MenuItem Header="File">
+        <Menu x:Name="menu1" Height="100" Width="267" Margin="0,0,250,219">
+            <MenuItem Header="File" Width="36">
                 <MenuItem Header="Load Fight Config" HorizontalAlignment="Left" Width="140"/>
                 <Separator HorizontalAlignment="Left" Height="1" Width="140"/>
                 <MenuItem Header="Exit" HorizontalAlignment="Left" Width="140"/>
-              
             </MenuItem>
-        </Menu>
+            <MenuItem Header="Language">
+                <MenuItem Header="English" HorizontalAlignment="Left" Width="140"/>
+            </MenuItem>
 
+        </Menu>
     </Grid>
 </Window>
